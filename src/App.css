@@ -1,0 +1,50 @@
+#App-Main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 1rem;
+  font-family: "Space Mono", monospace;
+  background-color: rgb(255, 255, 255);
+}
+
+#Form-Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4px;
+}
+
+label {
+  margin-right: 0.5rem;
+}
+
+.Section {
+  margin: 1rem;
+}
+
+#User-Details {
+  margin: 1rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+#Accident-Details-Time {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 0.5rem;
+}
+
+.Question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem;
+}
