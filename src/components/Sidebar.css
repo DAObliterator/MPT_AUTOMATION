@@ -1,0 +1,63 @@
+#Sidebar-Super-Main {
+ position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: black; 
+}
+
+#Hamburger-Button {
+  background-color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+#Sidebar-Main {
+  
+  width: 250px;
+  background-color: black;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+
+#Sidebar-Main a {
+  color: yellow;
+  text-decoration: none;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#Sidebar-Main a:hover {
+  text-decoration: underline;
+}
+
+#Logout-Button {
+  background-color: black;
+  color: yellow;
+  border: 1px solid yellow;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#Logout-Button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#Logout-Button svg, 
+#Hamburger-Button svg {
+  margin-left: 5px;
+}
+
+
+

@@ -1,0 +1,51 @@
+/* AllPdfsTable.css */
+
+#AllPdfsTable-Main {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  border-radius: 8px;
+}
+
+#User-Uploads-Table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#User-Uploads-Table thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#User-Uploads-Table th, 
+#User-Uploads-Table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#User-Uploads-Table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#User-Uploads-Table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#User-Uploads-Table tr:hover {
+  background-color: #f1f1f1;
+}
+
+#User-Uploads-Table td a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+#User-Uploads-Table td a:hover {
+  text-decoration: underline;
+}
