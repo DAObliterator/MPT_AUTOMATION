@@ -110,5 +110,14 @@ input {
   padding: 8px;
 }
 
+@media screen and (max-width: 720px)  {
+
+  #Auth-Main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
 
 
