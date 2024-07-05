@@ -644,7 +644,7 @@ const MyDocument = ({
 }) => (
   <Document style={{ backgroundColor: "white" }}>
     <Page
-      size="A2"
+      size="A4"
       orientation="portrait"
       style={{ margin: "1rem", color: "black", backgroundColor: "white" }}
     >
@@ -653,6 +653,7 @@ const MyDocument = ({
           display: "flex",
           flexDirection: "column",
           backgroundColor: "white",
+          fontSize: "12px"
         }}
       >
         <View
@@ -871,6 +872,7 @@ export const LoginComponent = () => {
           error,
           "error happened while accessing the login post route..."
         );
+        alert(error);
       });
   };
 
