@@ -64,6 +64,8 @@ input {
   flex-direction: column;
   background-color: rgba(212, 212, 212, 0.8);
   position: fixed;
+  left: 0;
+  top: 0;
   align-items: center;
   min-height: 100%;
   width: 100vw;

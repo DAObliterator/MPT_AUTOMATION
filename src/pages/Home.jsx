@@ -819,7 +819,7 @@ export const LoginSignUp = ({ isAuthenticated, height }) => {
         )}
         <div id="Message-Div">
           {" "}
-          <button onClick={(ev) => handleFormChange(ev)}>
+          <button style={{backgroundColor: "red" , color: "yellow"}} onClick={(ev) => handleFormChange(ev)}>
             {" "}
             {message}{" "}
           </button>{" "}
