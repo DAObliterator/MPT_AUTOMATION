@@ -67,7 +67,7 @@ input {
   align-items: center;
   position: absolute;
   min-height: 100%;
-  width: 100%;
+  width: 100vw;
   color: rgb(109, 82, 134);
   margin: 0;
 

@@ -2,4 +2,6 @@
     background-color: black;
     color: yellow;
    font-family: "Space Mono", monospace;
+   width: 100vw;
+   min-height: 100vh;
 }
