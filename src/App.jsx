@@ -5,13 +5,15 @@ import Home from './pages/Home';
 import { UploadedPdfs } from './pages/UploadedPdfs';
 import { AdminDashboard} from "./pages/AdminDashboard";
 import "./App.css"
+import Sidebar from './components/Sidebar';
 
  const App = () => {
   const { isLoggedIn, setIsLoggedIn, userDetails, setUserDetails, isAdmin , setIsAdmin } = useAuth();
 
   return (
-    <div id='AppMain' >
+    <div id="AppMain">
       <Router>
+        {isLoggedIn && <Sidebar></Sidebar>}
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           {isLoggedIn && (

@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import "./UploadedPdfs.css";
 import UserPdfTable from "../components/UserPdfTable";
+import axios from "axios";
 
 export const UploadedPdfs = () => {
   const [yourPdfsArray, setYourPdfsArray] = useState([]);

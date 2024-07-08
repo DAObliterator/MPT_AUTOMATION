@@ -1,0 +1,33 @@
+#UserPdfTable-Main {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px yellow solid;
+    width: 50%;
+}
+
+
+thead , tbody {
+    width: 100%;
+}
+
+
+tr {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
