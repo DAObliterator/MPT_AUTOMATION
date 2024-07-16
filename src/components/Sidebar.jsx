@@ -56,9 +56,9 @@ const Sidebar = () => {
       <button
         id="Hamburger-Button"
         onClick={(ev) => toggleSidebar(ev)}
-        style={{ backgroundColor: "black" }}
+       style={{backgroundColor: "white"}}
       >
-        <MenuIcon style={{ fontSize: "1.5rem", color: "yellow" }}></MenuIcon>
+        <MenuIcon ></MenuIcon>
       </button>
       {sidebar && (
         <div id="Sidebar-Main">

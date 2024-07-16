@@ -1,6 +1,6 @@
 #AppMain {
-   background-color: black;
-   color: yellow;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
    font-family: "Space Mono", monospace;
    width: 100vw;
    min-height: 100vh;

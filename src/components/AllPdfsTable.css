@@ -13,7 +13,7 @@ table {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px yellow solid;
+    border: 2px rgb(0, 0, 0) solid;
     width: 100%;
 }
 

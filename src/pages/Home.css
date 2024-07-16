@@ -5,8 +5,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: start;
-  background-color: rgb(0, 0, 0);
-  color: rgb(248, 248, 6);
+  
 }
 
 #Form-Main {
@@ -62,14 +61,14 @@ input {
 
   display: flex;
   flex-direction: column;
-  background-color: rgba(212, 212, 212, 0.8);
+  background-color: rgba(244, 243, 243, 0.8);
   position: fixed;
   left: 0;
   top: 0;
   align-items: center;
   min-height: 100%;
   width: 100vw;
-  color: rgb(238, 255, 0);
+  color: rgb(0, 0, 0);
   margin: 0;
 
 }
@@ -80,7 +79,7 @@ input {
   border-radius:1rem;
   align-items: center;
   width: 50%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(182, 168, 168);
   z-index: 1000;
 }
 
@@ -103,7 +102,7 @@ input {
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
-  background-color: #333333;
+  background-color: #ffffff;
   opacity: 1;
   border-radius:1rem;
 
@@ -117,7 +116,7 @@ input {
 
 .Auth-Form button {
   background-color: red;
-  color: yellow;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 720px)  {
